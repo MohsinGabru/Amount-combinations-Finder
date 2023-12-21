@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    user-select: none;
+}
+
+h1 {
+    color: #333;
+}
+
+#result-container {
+    user-select: text;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 10px;
+    color: #333;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+#result-container strong br {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #result-container {
+        padding: 5px;
+        /* width: 100%; */
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #dddddd;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width: 400px) {
+    #result-container strong span {
+        display: none;
+    }
+
+    #result-container strong br {
+        display: unset;
+    }
+
+    td,
+    th {
+        padding: 2px;
+    }
+}
